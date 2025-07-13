@@ -4,4 +4,4 @@ namespace: linkding
 resources:
   - ../../base/linkding/
   #- cloudfare.yaml
-  - test-secret.yaml
+  #- test-secret.yaml
