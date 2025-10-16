@@ -1,1 +1,4 @@
 .idea
+# Secret Files
+*.json
+*.agekey
