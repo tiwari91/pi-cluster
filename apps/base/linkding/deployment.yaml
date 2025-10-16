@@ -27,7 +27,7 @@ spec:
 
           envFrom:
             - secretRef:
-                name: test-secret
+                name: linkding-superuser
 
           volumeMounts:
             - name: linkding-data
