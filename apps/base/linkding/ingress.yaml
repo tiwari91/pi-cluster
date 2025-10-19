@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: ldpi.arlingtonhood21.work
+    - host: lds.arlingtonhood21.work
       http:
         paths:
           - backend:
