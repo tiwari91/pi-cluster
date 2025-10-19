@@ -7,3 +7,4 @@ resources:
   - service.yaml
   - secret-cloudflare.yaml
   - secret-superuser.yaml
+  - ingress.yaml
