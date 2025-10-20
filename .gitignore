@@ -2,3 +2,5 @@
 # Secret Files
 *.json
 *.agekey
+*.crt
+*.key
