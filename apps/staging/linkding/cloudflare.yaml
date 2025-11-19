@@ -79,11 +79,15 @@ data:
     ingress:
       # Linkding
       - hostname: ldpi.arlingtonhood21.work
-        service: http://linkding:9090
+        service: http://linkding.linkding:9090
       
       # Audiobookshelf  
       - hostname: audiobooks.arlingtonhood21.work
         service: http://audiobookshelf.audiobookshelf:3005
+      
+      # Grafana
+      - hostname: grs.arlingtonhood21.work
+        service: http://kube-prometheus-stack-grafana.monitoring:80
       
       # This rule sends traffic to the built-in hello-world HTTP server. This can help debug connectivity
       # issues. If hello.example.com resolves and tunnel.example.com does not, then the problem is
